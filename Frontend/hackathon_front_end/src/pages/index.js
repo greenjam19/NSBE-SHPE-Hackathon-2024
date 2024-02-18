@@ -29,7 +29,7 @@ const career_options_sequence = [
 const TypingAnimation = () => {
   return (
     <div>
-      <h3 >I can become a</h3>
+      <h3 >You can become a</h3>
       <TypeAnimation
         sequence={career_options_sequence}
         speed={50}

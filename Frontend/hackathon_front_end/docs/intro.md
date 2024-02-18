@@ -16,26 +16,28 @@ Opulence & Opportunities is a resources for underrepresented communities to be e
 
 This site contains tons of different resources, but to get started exploring the site there are 3 primary avenues:
 
+* **Search Site**
+  * If there's any keywords you're interested in or fields you want to learn more about, simply access our search bar and search away!
+
 * **[Find the Career of the day](https://docusaurus.new)**
   * Learn more about a career you haven't heard about, by checking out what the career of the day is!
-* **[Search Site](https://docusaurus.new)**
-  * If there's any keywords you're interested in or fields you want to learn more about, simply access our search bar and search away!
-* **[Upload you're resume](https://docusaurus.new)** (coming soon!)
-  * Using pattern matching algorithms, we'll find what Career paths that fit your resume the best - possibly allowing you to find something new where you'll easily fit in!
+
+* **Upload your resume** **[(coming soon!)](https://github.com/greenjam19/NSBE-SHPE-Hackathon-2024/blob/main/Frontend/Resume_Upload_specifics.txt)**
+  * Using pattern matching algorithms, we'll find what career paths fit your resume the best - possibly allowing you to find something new where you'll easily fit in!
 
 ### What you'll need
 
---- 
+Yourself and a poitive attitude.
 
-### FAQ
+### FAQs
 
-**Do I need an account**
+**Do I need an account?**
 
-No
+Nope!
 
 **What is the cost?**
 
-Free 99 (all free)
+Free 99 (all free)!
 
 **Why was this made?**
 

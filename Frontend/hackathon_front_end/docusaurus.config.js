@@ -92,7 +92,7 @@ const config = {
             title: 'Overview',
             items: [
               {
-                label: 'Mission Statement',
+                label: 'Core Mission',
                 to: '/docs/intro#core-mission',
               },
               {
@@ -100,8 +100,8 @@ const config = {
                 to: '/docs/intro#getting-started',
               },
               {
-                label: 'FAQ',
-                to: '/docs/intro#faq',
+                label: 'FAQs',
+                to: '/docs/intro#faqs',
               },
             ],
           },
