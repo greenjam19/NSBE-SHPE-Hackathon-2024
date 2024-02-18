@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Breaking the barriers for entry into fields we’re traditionally not represented in',
+  title: 'Opulence & Oppurtunies',
+  tagline: 'Breaking the barriers for entry into fields we’re traditionally not represented in.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
