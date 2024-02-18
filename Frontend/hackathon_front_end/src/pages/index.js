@@ -22,7 +22,6 @@ const career_options_sequence = [
   "Legal Assistant-Paralegal", delay_between_options, "Real Estate Agent", delay_between_options, 
   "Fitness Trainer-Instructor", delay_between_options, "HVAC Technician", delay_between_options, 
   "Welder", delay_between_options, "Construction Worker", delay_between_options, 
-
 ]
 
 
@@ -79,6 +78,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <CareerOfTheDay />
       </main>
     </Layout>
   );
