@@ -8,7 +8,7 @@ Opulence & Opportunities is a resource for underrepresented communities to be ex
 
 ## Core Mission
 
-* **Expose individuals from underrepresented communities to diverse and fulfilling career paths** they may not have previously considered.
+* **Expose individuals to diverse and fulfilling career paths** they may not have previously considered.
 * **Demystify the requirements and entry points** for these fields, making them more accessible and attainable.
 * **Collectively dismantle the systemic obstacles** that hinder equal access to opportunity and success.
 
