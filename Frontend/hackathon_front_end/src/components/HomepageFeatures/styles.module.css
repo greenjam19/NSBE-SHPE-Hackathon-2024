@@ -9,3 +9,21 @@
   height: 200px;
   width: 200px;
 }
+
+[data-theme='dark'] {
+  color: #4e89e8;
+}
+
+.features2 {
+  background-color: ifm-color-primary;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
