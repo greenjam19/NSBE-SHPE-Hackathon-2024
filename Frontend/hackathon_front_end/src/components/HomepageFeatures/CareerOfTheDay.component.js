@@ -9,7 +9,6 @@ function Feature() {
     return (
         <div className={clsx('col col--4 text--center')}>
             <div className="">
-                {/* <Svg className={styles.featureSvg} role="img" /> */}
                 <MySvgIcon className={styles.featureSvg} />
             </div>
             <div className="padding-horiz--md">
