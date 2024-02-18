@@ -32,10 +32,10 @@ function Feature() {
                 <Link
                     className="button button--secondary button--m"
                     to={ "/docs/Job Descriptions/" + career_page_links[Math.floor(Math.random() * (career_page_links.length -1))]}>
-                    I'm Just Curious
+                    I'm Just Curious!
                 </Link>
             </div>
-                <p>{"Learn more about a career you may not have heard "} 
+                <p>{"Learn more about a career you may not have heard about! "} 
                 <i>{"(click for a randomly selected career page)"}</i>
                 </p>
             </div>

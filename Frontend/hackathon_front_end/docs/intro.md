@@ -19,8 +19,8 @@ This site contains tons of different resources, but to get started exploring the
 * **Search Site**
   * If there's any keywords you're interested in or fields you want to learn more about, simply access our search bar and search away!
 
-* **[Find the Career of the day](https://docusaurus.new)**
-  * Learn more about a career you haven't heard about, by checking out what the career of the day is!
+* **I'm Just Curious**
+  * If you're "just curious" about checking out a profession you may have not heard about in-depth before, you can do so by checking out one at random using the "I'm Just Curious!" button near the bottom of the **[homepage](https://nsbe-shpe-hackathon-2024.onrender.com/)**.
 
 * **Upload your resume** **[(coming soon!)](https://github.com/greenjam19/NSBE-SHPE-Hackathon-2024/blob/main/Frontend/Resume_Upload_specifics.txt)**
   * Using pattern matching algorithms, we'll find what career paths fit your resume the best - possibly allowing you to find something new where you'll easily fit in!
