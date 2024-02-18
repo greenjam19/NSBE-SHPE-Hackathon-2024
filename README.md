@@ -2,6 +2,10 @@
 This repository's purpose is to serve as a frame of reference for everything that Matthew L Merritt and myself decide to delve into while fleshing out our project 
 for a Hackathon hosted by our campus' very own chapters of NSBE and SHPE. More general info coming later today!
 
+Edit from later today (02/18/2024):
+
+We PLACED!!!! In Second!!!!!!
+
 
 ## Live Site!
 - https://nsbe-shpe-hackathon-2024.onrender.com/
