@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Why Opulence & Opportunities?
 
-Opulence & Opportunities is a resources for underrepresented communities to be exposed to new fields and the requirements to get started. By providing a centralized resource for all of this information, we'll collectively be able to break down the barriers for entry.
+Opulence & Opportunities is a resource for underrepresented communities to be exposed to new fields and the requirements to get started. By providing a centralized resource for all of this information, we'll collectively be able to break down the barriers for entry.
 
 ## Core Mission
 
