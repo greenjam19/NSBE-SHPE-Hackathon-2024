@@ -1,0 +1,158 @@
+As far as pattern matching algorithms are concerned, before anyone could get to finding out
+what untapped career paths tailor to your resume the best, some data extraction would need to occur first.
+
+At the very least someone would need to take all relevant text from a resume you've submitted, and pass
+it against a handful of "tags" associated with each job currently listed on the O & O site at that time.
+
+A quick script of just the parsing of such a pdf is shown below:
+
+import PyPDF2, re
+#Dependency: pip install PyPDF2
+def extract_text_from_pdf(pdf_path):
+    text = ""
+    with open(pdf_path, 'rb') as file:
+        reader = PyPDF2.PdfReader(file)
+        num_pages = len(reader.pages)
+        for page_num in range(num_pages):
+            page = reader.pages[page_num]
+            ptext = page.extract_text()
+            print(re.sub('[^A-Za-z0-9\s]+', '', ptext)) #<------ Nets you a filtered scrape (only alphanumerics 
+                                                        # and spaces)
+            print("\n\n")
+            text += page.extract_text()
+    return text
+
+pdf_path = "Jamarri_Green_Spring2024_Resume.pdf"  # <------ You can replace this with any resume PDF file, this is 
+                                                  # just the in-drive name for my own.
+extracted_text = extract_text_from_pdf(pdf_path)
+print(extracted_text) #<------ Nets you a standard scrape.
+
+
+
+In the end the filtered scrape (below) would be the best candidate for word partitioning/ word comparisons
+or even something more sophisticated like TFIDF (Term Frequency Inverse Document Frequency) vectorized
+word comparisons 
+
+(essentially a formula that converts text documents into vectors based on the relevancy of the words 
+contained within)
+
+
+
+**************Filtered Scrape below********************
+
+Jamarri Green  
+greenj19rpied u 205 7606641  httpswwwlinkedincominjamarri green greenjam19 Jamarri Green  GitHub  
+EDUCATION   
+Rensselaer Polytechnic Institute RPI  BSc Senior           Major Computer Science  Expected Graduation Date May 2024  
+SKILLS 
+Visual Studio Code  Git  Android Studio  Python  C  C Linux WSL   MIPS Assembly  Java  Kotlin  TypeScript Docker OCPP  CUDA  
+RELEVANT C OURSEWORK  
+Computer Science I Data Structures  Com puter Architecture  Discrete Mathematics  Principles of Software Intro  to Algorithms  
+Cryptography an d Network Security  Operating Systems Parallel Programming Graph Theory  Numeri cal Computing Programming Languages
+WORK EXPERIENCE
+Atlassian  Software Engineer Intern CMP Team  May 2023  Aug 2023
+ Built  a feature baseline for Atlassians ConsentHub platform t o check the data usage consents and subscriptions of users of their
+various offerings in batch saving potentially hours of time for other developers who would otherwise have to retrieve them
+individually via SQL Querying      Frontend TypeScript      Backend Kotlin
+Green Action Studio  Software Engineer Intern Hardware Team Python  Sep 2022  Dec 2022
+ Created a n interface for the simulation of how messages are sent and received from any given charge point  EV charger  signals on
+their central system accessible from GASs server s
+ Began on  implementations for new messages that follow OCPP specifications for charge points     
+ Began on  a system for asynchronously checking and relaying differences in charge status  related  data files
+Rensselaer Polytechnic Institute
+  Office of Student Living and Learning   Student Assistant                                       
+                                                               2023  Present
+     Assistant tasked with handling lockouts key retrievalsreplacementsloans occasional financial aid inquiries and the occasional
+        room maintenance requests of 5000 students
+ Office of International Services for Students and Scholars  Media Content Creator Office Assistant                  Jun 2022  Aug 2022
+     Assistant tasked with the creation of event reminders and promotions for the students of RPI guidance of international
+        students regarding their student visa status and related documents therein  and general  everyday office tasks
+PROJECTS
+Encrypted Bank ATM System  Aug 2022  Sep 2022
+ Worked in a group of 3 to build using a client server protocol a system to mimic transactions e banking between an ATM client
+and a bank server allowing for secure through usage of the Data Encryption Standard symmetric key algorithm DES RSA HMAC
+and SHA 1 deposits withdrawals and current balance checks using Python
+CPU Scheduling Systems Simulation  Jul 2022  Jul 2022
+ Worked in a group of 3 to program a simulation of 4 different CPU scheduling algorithms using Python in Visual Studio Code  ie
+     First Come First Serve FCFS  Shortest Job First SJF  Shortest Remaining Time SRT  and Round Robin RR
+Rensselaer Ce nter for Open Source RCOS
+ Housing 20  Project Team Mentor                                                                  
+                                                         Feb 2023  May 2023
+    Mentor assigned the task of facilitating the wor kflow of a dozen team members for Housing 20 one of RCOS many project
+      teams working to build a platform to ultimately replace RPIs own that manage s and determine s the housing assignments of
+      current and  incoming students      Backend Python
+ Shuttle Tracker  Team Member                                                                     
+                                                                       Jan 2022  May 2022
+    Implemented a UI component for  viewing ongoing announcements  for the Android port of RPIs Shuttle Tracker app using Kotlin
+       in Android Studio Project itself viewable through GitHub URL provided above      Frontend Kotlin
+MIPS Datapath Implementation  Nov 2021  Dec 2021
+ Worke d in a group of four to develop a Datapath model using C that processed assembly commands MIPS format
+ACTIVITIES
+National Society of Black Engineers NSBE  RPI Chapter  Member                                     
+                                               Aug 2020  Present
+ Membership Development Chair MDC  Jan 2022  May 2023
+      Regularly hosted events for returning and potential  members  geared toward professional dev elopmen t and discussed future
+         organizational  dilemmas for NSBE on RPIs campus
+
+
+
+
+
+****************STANDARD SCRAPE BELOW*****************
+
+
+
+
+
+Jamarri Green  
+greenj19@rpi.edu| 205 -760-6641 | https://www.linkedin.com/in/jamarri -green| greenjam19 (Jamarri Green) · GitHub
+EDUC ATION
+Rensselaer Polytechnic Institute (RPI) – BSc: Senior           Major: Computer Science  Expected Graduation Date: May 2024
+SKILLS
+Visual Studio Code | Git | Android Studio | Python | C | C++| Linux (WSL)  | MIPS Assembly | Java | Kotlin | TypeScript| Docker| OCPP | CUDA
+RELEVANT C OURSEWORK
+Computer Science I; Data Structures;  Com puter Architecture ; Discrete Mathematics ; Principles of Software; Intro  to Algorithms;
+Cryptography an d Network Security ; Operating Systems; Parallel Programming; Graph Theory ; Numeri cal Computing; Programming Languages
+WORK EXPERIENCE
+Atlassian - Software Engineer Intern (CMP Team)  May 2023 - Aug 2023
+- Built  a feature baseline for Atlassian’s ConsentHub platform t o check the data usage consents and subscriptions of users of their
+various offerings in batch, saving potentially hours of time for other developers who would otherwise have to retrieve them
+individually via SQL Querying.      Frontend: TypeScript;      Backend: Kotlin
+Green Action Studio - Software Engineer Intern (Hardware Team: Python)  Sep 2022 – Dec 2022       
+- Created a n interface for the simulation of how messages are sent and received from any given charge point ( EV charger  signals on
+their central system) accessible from GAS’s server s.
+- Began on  implementations for new messages (that follow OCPP specifications) for charge points. 
+
+- Began on  a system for asynchronously checking and relaying differences in charge -status  related  data files .
+Rensselaer Polytechnic Institute
+-  (Office of Student Living and Learning ) – Student Assistant                                   
+                                                                   2023 – Present
+    ◦ Assistant tasked with handling lockouts, key retrievals/replacements/loans, occasional financial aid inquiries, and the occasional
+        room maintenance requests of ~5,000+ students.
+- (Office of International Services for Students and Scholars) - Media Content Creator/ Office Assistant                  Jun 2022 - Aug 2022
+    ◦ Assistant tasked with the creation of event reminders and promotions for the students of RPI, guidance of international
+        students regarding their student visa status and related documents therein , and general , everyday office tasks.
+PROJECTS
+Encrypted Bank ATM System  Aug 2022 – Sep 2022
+- Worked in a group of 3 to build (using a client -server protocol) a system to mimic transactions/ e -banking between an ATM (client)
+and a bank (server) allowing for secure (through usage of the Data Encryption Standard symmetric key algorithm (DES), RSA, HMAC,
+and SHA -1) deposits, withdrawals, and current balance checks using Python.
+CPU Scheduling Systems Simulation  Jul 2022 – Jul 2022
+- Worked in a group of 3 to program a simulation of 4 different CPU scheduling algorithms using Python in Visual Studio Code,  i.e:
+    ◦ First Come First Serve (FCFS) , Shortest Job First (SJF) , Shortest Remaining Time (SRT) , and Round Robin (RR)
+Rensselaer Ce nter for Open Source (RCOS)
+- Housing 2.0 - Project Team Mentor                                                               
+                                                            Feb 2023 - May 2023
+   ◦ Mentor assigned the task of facilitating the wor kflow of a dozen team members for Housing 2.0, one of RCOS' many project
+      teams, working to build a platform to ultimately replace RPI’s own that manage s and determine s the housing assignments of
+      current and  incoming students .     Backend: Python
+- Shuttle Tracker – Team Member                                                                                                                                            Jan 2022 - May 2022      
+   ◦ Implemented a UI component for  viewing ongoing announcements  for the Android port of RPI’s Shuttle Tracker app using Kotlin
+       in Android Studio. Project itself viewable through GitHub URL provided above.      Frontend: Kotlin
+MIPS Datapath Implementation  Nov 2021 - Dec 2021
+- Worke d in a group of four to develop a Datapath model using C that processed assembly commands (MIPS format).
+ACTIVITIES
+National Society of Black Engineers (NSBE) – RPI Chapter : Member                                                                                    Aug 2020 - Present
+- Membership Development Chair (MDC)  Jan 2022 - May 2023
+     ◦ Regularly hosted events for returning and potential  members  geared toward professional dev elopmen t and discussed future
+         organizational  dilemmas for NSBE on RPI’s campus.
