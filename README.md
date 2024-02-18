@@ -4,7 +4,19 @@ for a Hackathon hosted by our campus' very own chapters of NSBE and SHPE. More g
 
 
 
-## Starting Front-end;
+
+
+## Starting Front-end (production)
+- includes search option
+
+```
+cd hackathon_front_end
+npm install
+npm build
+npm run serve
+```
+
+## Starting Front-end (testing)
 
 ```
 cd hackathon_front_end
