@@ -9,6 +9,6 @@ Registered nurses provide and coordinate patient care, educate patients and the 
 Pursue an accelerated nursing program for individuals with non-nursing degrees, complete clinical rotations to gain hands-on experience, and consider volunteering or shadowing opportunities in healthcare settings.
 
 ### Other Interesting Info: 
-Nursing offers job stability and various career paths, including specialties like oncology or pediatrics. Visit the U.S. Bureau of Labor Statistics website for information on job growth in the field.
+Nursing offers job stability and various career paths, including specialties like oncology or pediatrics. Visit the **[U.S. Bureau of Labor Statistics website](https://www.bls.gov/ooh/healthcare/registered-nurses.htm)** for information on job growth in the field.
 
 

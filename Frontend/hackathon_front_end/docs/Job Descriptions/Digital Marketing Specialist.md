@@ -9,4 +9,4 @@ Digital marketing specialists develop and implement marketing strategies using o
 Learn digital marketing tools and platforms (e.g., Google Analytics, Facebook Ads), take online courses or certifications, build a portfolio showcasing marketing campaigns, and network with professionals in the field.
 
 ### Other Interesting Info: 
-Digital marketing offers diverse career opportunities with the rise of online businesses and e-commerce. Explore industry trends and job demand on the U.S. Bureau of Labor Statistics website.
+Digital marketing offers diverse career opportunities with the rise of online businesses and e-commerce. Explore industry trends and job demand on the **[U.S. Bureau of Labor Statistics website](https://www.bls.gov/oes/current/oes131161.htm)**.

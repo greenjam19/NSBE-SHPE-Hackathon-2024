@@ -9,4 +9,4 @@ Technical writers create documentation such as user manuals, instruction guides,
 Learn technical writing principles and tools (e.g., Adobe FrameMaker, MadCap Flare), take writing courses or workshops, and build a portfolio showcasing writing samples.
 
 ### Other Interesting Info: 
-Technical writing requires strong communication skills and attention to detail, offering opportunities in industries such as technology, healthcare, and engineering. Explore job prospects on the U.S. Bureau of Labor Statistics website.
+Technical writing requires strong communication skills and attention to detail, offering opportunities in industries such as technology, healthcare, and engineering. Explore job prospects on the **[U.S. Bureau of Labor Statistics website](https://www.bls.gov/oes/current/oes273042.htm)**.

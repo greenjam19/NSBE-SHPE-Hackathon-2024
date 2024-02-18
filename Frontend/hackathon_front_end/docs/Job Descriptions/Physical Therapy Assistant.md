@@ -7,4 +7,6 @@ Physical therapist assistants help patients recover from injuries or illnesses b
 ### Transitional Info: 
 Complete an accredited physical therapist assistant program, gain clinical experience through internships or practicums, and obtain state licensure or certification.
 ### Other Interesting Info: 
-Physical therapy offers opportunities to make a difference in patients' lives and contribute to healthcare. Explore employment trends and job outlook on the U.S. Bureau of Labor Statistics website.
+Physical therapy offers opportunities to make a difference in patients' lives and contribute to healthcare. Explore employment trends and job outlook on the **[U.S. Bureau of Labor Statistics website](https://www.bls.gov/ooh/healthcare/physical-therapist-assistants-and-aides.htm)**.
+
+
