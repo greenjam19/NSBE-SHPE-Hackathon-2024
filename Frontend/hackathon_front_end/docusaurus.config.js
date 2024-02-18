@@ -89,11 +89,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Overview',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Mission Statement',
+                to: '/docs/intro#core-mission',
+              },
+              {
+                label: 'Getting Started Statement',
+                to: '/docs/intro#getting-started',
+              },
+              {
+                label: 'FAQ',
+                to: '/docs/intro#faq',
               },
             ],
           },
@@ -101,16 +109,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'NSBE Site (RPI Chapter)',
+                href: 'https://sites.google.com/view/nsbe-rpi/home',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'SHPE Site (RPI Chapter)',
+                href: 'http://shpe.rpi.edu/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Rensselaer Polytechnic Institute (RPI)',
+                href: 'https://www.rpi.edu/',
               },
             ],
           },
@@ -118,12 +126,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/greenjam19/NSBE-SHPE-Hackathon-2024',
               },
             ],
           },

@@ -32,14 +32,12 @@ export default function CareerOfTheDay() {
     const { siteConfig } = useDocusaurusContext();
 
     return (
-        <section className={styles.features}>
+        <section className={styles.darkBackground}>
             <div className="container">
                 <div className="row ">
                     <Feature />
-
                 </div>
             </div>
-
         </section>
     );
 }

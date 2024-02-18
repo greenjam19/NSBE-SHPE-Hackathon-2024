@@ -73,6 +73,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <CareerOfTheDay/>
       </main>
     </Layout>
   );
