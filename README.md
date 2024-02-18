@@ -3,7 +3,8 @@ This repository's purpose is to serve as a frame of reference for everything tha
 for a Hackathon hosted by our campus' very own chapters of NSBE and SHPE. More general info coming later today!
 
 
-
+## Live Site!
+- https://nsbe-shpe-hackathon-2024.onrender.com/
 
 
 ## Starting Front-end (production)
