@@ -14,7 +14,7 @@ const career_page_links = [
     "Technical Writer", "Teacher",
     "Financial Advisor", "Environmental Scientist",
     "Social Media Manager", "Physical Therapy Assistant", 
-    "Healthcare Administratort", "Interior Designer", 
+    "Healthcare Administrator", "Interior Designer", 
     "Legal Assistant-Paralegal", "Real Estate Agent", 
     "Fitness Trainer-Instructor", "HVAC Technician", 
     "Welder", "Construction Worker", 

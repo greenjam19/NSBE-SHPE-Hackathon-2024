@@ -18,7 +18,7 @@ const career_options_sequence = [
   "Technical Writer", delay_between_options, "Teacher", delay_between_options,
   "Financial Advisor", delay_between_options, "Environmental Scientist", delay_between_options,
   "Social Media Manager", delay_between_options, "Physical Therapy Assistant", delay_between_options, 
-  "Healthcare Administratort", delay_between_options, "Interior Designer", delay_between_options, 
+  "Healthcare Administrator", delay_between_options, "Interior Designer", delay_between_options, 
   "Legal Assistant-Paralegal", delay_between_options, "Real Estate Agent", delay_between_options, 
   "Fitness Trainer-Instructor", delay_between_options, "HVAC Technician", delay_between_options, 
   "Welder", delay_between_options, "Construction Worker", delay_between_options, 
