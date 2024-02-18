@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Opulence & Oppurtunies',
-  tagline: 'Breaking the barriers for entry into fields we’re traditionally not represented in.',
+  title: 'Opulence & Opportunities',
+  tagline: 'Empowering Underrepresented Communities through Exposure and Education.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'greenjam19', // Usually your GitHub org/user name.
+  projectName: 'NSBE-SHPE-Hackathon-2024', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,9 +64,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/d20-icon-13.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Opulence & Opportunities',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -76,11 +76,10 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Information',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/greenjam19/NSBE-SHPE-Hackathon-2024',
             label: 'GitHub',
             position: 'right',
           },
@@ -129,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Opulence & Opportunities, By Jamarri and Matthew`,
       },
       prism: {
         theme: prismThemes.github,

@@ -2,46 +2,41 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Why Opulence & Opportunities?
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Opulence & Opportunities is a resources for underrepresented communities to be exposed to new fields and the requirements to get started. By providing a centralized resource for all of this information, we'll collectively be able to break down the barriers for entry.
 
-## Getting Started
+## Core Mission
 
-Get started by **creating a new site**.
+* **Expose individuals from underrepresented communities to diverse and fulfilling career paths** they may not have previously considered.
+* **Demystify the requirements and entry points** for these fields, making them more accessible and attainable.
+* **Collectively dismantle the systemic obstacles** that hinder equal access to opportunity and success.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Getting Started
+
+This site contains tons of different resources, but to get started exploring the site there are 3 primary avenues:
+
+* **[Find the Career of the day](https://docusaurus.new)**
+  * Learn more about a career you haven't heard about, by checking out what the career of the day is!
+* **[Search Site](https://docusaurus.new)**
+  * If there's any keywords you're interested in or fields you want to learn more about, simply access our search bar and search away!
+* **[Upload you're resume](https://docusaurus.new)** (coming soon!)
+  * Using pattern matching algorithms, we'll find what Career paths that fit your resume the best - possibly allowing you to find something new where you'll easily fit in!
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+--- 
 
-## Generate a new site
+### FAQ
 
-Generate a new Docusaurus site using the **classic template**.
+**Do I need an account**
 
-The classic template will automatically be added to your project after you run the command:
+No
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+**What is the cost?**
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Free 99 (all free)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+**Why was this made?**
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Because we saw a need and for a proposed solution to the 1st NSBE/SHPE Hackathon at RPI.

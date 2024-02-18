@@ -8,6 +8,7 @@ for a Hackathon hosted by our campus' very own chapters of NSBE and SHPE. MOre g
 
 ```
 cd hackathon_front_end
+npm install
 npm start
 ```
 
